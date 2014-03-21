@@ -1,0 +1,23 @@
+Goal is to determine if Watchman as a ~1kton liquid scintillator detector at the IMB
+site is sensitive to the mass hierarchy scale.
+
+Expected Li9 rate: Kamland Li9 * (mu_imb / mu_kam) * (<E>_imb / <E>_kam)**0.7 = 6.24 / day
+<E>_imb = 165 GeV
+<E>_kam = 219 GeV
+mu_imb = 0.629 /s
+mu_kam = 0.205 /s
+Li9_kam = 2.48 /day
+IMB Depth: 1434 m.w.e
+
+Generate Backgrounds
+With spectra events / 10 keV / kton / day
+	 Fast Neutron
+	 Li9
+	 Geoneutrinos
+
+Generate Signal ( Normal & Inverted )
+	 Reactor Spectrum Smeared with Oscillations
+
+Generate Energy Resolution as a function of E
+
+Convolve Bkg + Signal * Smeared
